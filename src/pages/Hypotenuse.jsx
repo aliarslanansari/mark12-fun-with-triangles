@@ -1,16 +1,11 @@
 import React from 'react'
+import Wrapper from '../components/Wrapper'
 
 const Hypotenuse = () => {
   return (
-    <div
-      style={{
-        display: 'flex',
-        justifyContent: 'Right',
-        alignItems: 'Right',
-        height: '100vh',
-      }}>
+    <Wrapper>
       <h1>hypotenuse</h1>
-    </div>
+    </Wrapper>
   )
 }
 

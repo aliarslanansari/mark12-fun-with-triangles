@@ -5,8 +5,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Home from './pages'
 import IsTriangle from './pages/IsTriangle'
 import Hypotenuse from './pages/Hypotenuse'
-import Teams from './pages/AreaOfTriangle'
-import SignUp from './pages/Signup'
+import AreaOfTriangle from './pages/AreaOfTriangle'
 import Quiz from './pages/Quiz'
 
 function App() {
@@ -18,8 +17,7 @@ function App() {
         <Route path='/about' component={IsTriangle} />
         <Route path='/quiz' component={Quiz} />
         <Route path='/hypotenuse' component={Hypotenuse} />
-        <Route path='/team' component={Teams} />
-        <Route path='/sign-up' component={SignUp} />
+        <Route path='/team' component={AreaOfTriangle} />
       </Switch>
     </Router>
   )

@@ -6,7 +6,7 @@ export const Nav = styled.nav`
   background: #63d471;
   height: 85px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   padding: 0.2rem calc((100vw - 1000px) / 2);
   z-index: 12;
   /* Third Nav */
@@ -14,7 +14,7 @@ export const Nav = styled.nav`
 `
 
 export const NavLink = styled(Link)`
-  color: #808080;
+  color: #5e5e5e;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -43,6 +43,7 @@ export const Bars = styled(FaBars)`
 export const NavMenu = styled.div`
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-right: -24px;
 `
 

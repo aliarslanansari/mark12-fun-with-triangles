@@ -1,14 +1,10 @@
+import Wrapper from '../components/Wrapper'
+
 const AreaOfTriangle = () => {
   return (
-    <div
-      style={{
-        display: 'flex',
-        justifyContent: 'Right',
-        alignItems: 'Right',
-        height: '100vh',
-      }}>
+    <Wrapper>
       <h1>AreaOfTriangle</h1>
-    </div>
+    </Wrapper>
   )
 }
 

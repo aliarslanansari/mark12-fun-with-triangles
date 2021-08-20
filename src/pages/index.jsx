@@ -1,16 +1,11 @@
 import React from 'react'
+import Wrapper from '../components/Wrapper'
 
 const Home = () => {
   return (
-    <div
-      style={{
-        display: 'flex',
-        justifyContent: 'Right',
-        alignItems: 'Right',
-        height: '100vh',
-      }}>
+    <Wrapper>
       <h1>Welcome to GeeksforGeeks</h1>
-    </div>
+    </Wrapper>
   )
 }
 
