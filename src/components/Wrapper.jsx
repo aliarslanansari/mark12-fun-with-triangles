@@ -3,8 +3,8 @@ import styled from 'styled-components'
 
 const CustomWrapper = styled.div`
   display: flex;
-  justify-content: center;
-  height: 100vh;
+  align-items: center;
+  flex-direction: column;
 `
 
 const Wrapper = ({ children, style }) => {
