@@ -6,16 +6,16 @@ const Navbar = () => {
     <>
       <Nav>
         <NavMenu>
-          <NavLink to='/about' activeStyle>
-            Is Triangle?
-          </NavLink>
-          <NavLink to='/quiz' activeStyle>
+          <NavLink to='/' exact activeStyle>
             Quiz
           </NavLink>
-          <NavLink to='/hypotenuse' activeStyle>
+          <NavLink to='/about' exact activeStyle>
+            Is Triangle?
+          </NavLink>
+          <NavLink to='/hypotenuse' exact activeStyle>
             Hypotenuse
           </NavLink>
-          <NavLink to='/team' activeStyle>
+          <NavLink to='/team' exact activeStyle>
             Area of Triangle
           </NavLink>
         </NavMenu>
