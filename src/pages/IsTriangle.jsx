@@ -3,13 +3,13 @@ import styled from 'styled-components'
 import Wrapper from '../components/Wrapper'
 import { Button, Title } from './Quiz'
 
-const Label = styled.label`
+export const Label = styled.label`
   font-size: 2rem;
   margin-bottom: 0.5rem;
   margin-top: 1rem;
 `
 
-const Input = styled.input`
+export const Input = styled.input`
   font-size: 2rem;
   border-radius: 0.3rem;
 `
