@@ -28,15 +28,13 @@ const Hypotenuse = () => {
 
   return (
     <Wrapper>
-      <Wrapper>
-        <Title>Calculate Hypotenuse of a triangle</Title>
-        <Label htmlFor='angle1'>Enter base value (a) =</Label>
-        <Input type='text' id='angle1' ref={sideOne} />
-        <Label htmlFor='angle2'>Enter height value (b) =</Label>
-        <Input type='text' id='angle2' ref={sideTwo} />
-        <h1>{message}</h1>
-        <Button onClick={onSubmit}>SUBMIT</Button>
-      </Wrapper>{' '}
+      <Title>Calculate Hypotenuse of a triangle</Title>
+      <Label htmlFor='angle1'>Enter base value (a) =</Label>
+      <Input type='text' id='angle1' ref={sideOne} />
+      <Label htmlFor='angle2'>Enter height value (b) =</Label>
+      <Input type='text' id='angle2' ref={sideTwo} />
+      <h1>{message}</h1>
+      <Button onClick={onSubmit}>SUBMIT</Button>
     </Wrapper>
   )
 }
