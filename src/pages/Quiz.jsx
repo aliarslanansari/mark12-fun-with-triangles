@@ -23,7 +23,7 @@ const Options = styled.span`
     border-left: 1px solid #7dff8c;
   }
 `
-const Button = styled.button`
+export const Button = styled.button`
   cursor: pointer;
   width: 500px;
   border: 1px solid #7dff8c;
